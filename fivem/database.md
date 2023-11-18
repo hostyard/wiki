@@ -1,6 +1,6 @@
 ---
-label: Jak podpiąć bazę danych?
-order: 1
+label: Podpinanie bazy danych
+order: 98
 icon: database
 author:
   name: OreQr

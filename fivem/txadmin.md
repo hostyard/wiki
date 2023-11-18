@@ -1,6 +1,6 @@
 ---
 label: Uruchamianie panelu TxAdmin
-order: 1
+order: 97
 icon: /static/fivem/txadmin.png
 author:
   name: Korpens
@@ -12,7 +12,7 @@ author:
 
 ## Automatycznie
 
-Wystarczy nacisnąć przycisk **WŁĄCZ** w zakładce `Ustawienia`, na samym dole strony.
+Wystarczy nacisnąć przycisk [!badge variant="success" text="**WŁĄCZ**"] w zakładce `Ustawienia`, na samym dole strony.
 
 ![](/static/fivem/tx1.png)
 
@@ -20,7 +20,7 @@ Wystarczy nacisnąć przycisk **WŁĄCZ** w zakładce `Ustawienia`, na samym dol
 
 ## Ręcznie
 
-1. Wejdź w zakładkę `Sieć` następnie kliknij **UTWÓRZ ALOKACJE**.
+1. Wejdź w zakładkę `Sieć` następnie kliknij [!badge variant="success" text="**UTWÓRZ ALOKACJE**"].
 
 ![](/static/fivem/tx2.png)
 
