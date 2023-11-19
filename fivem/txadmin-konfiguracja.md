@@ -6,7 +6,6 @@ author:
   name: Korpens
   email: korpens.yt@gmail.com
   avatar: /static/avatars/korpens.jpg
-
 ---
 !!!warning
 Wymaga zalogowania się na konto **Cfx.re**.

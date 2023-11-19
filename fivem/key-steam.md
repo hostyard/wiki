@@ -1,6 +1,6 @@
 ---
 label: Klucz Steam WebApiKey
-order: 99
+order: 100
 icon: key
 author:
   name: Korpens
