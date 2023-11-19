@@ -1,5 +1,5 @@
 ---
-label: Konfiguracja panelu TxAdmin
+label: Konfiguracja panelu txAdmin
 order: 96
 icon: /static/fivem/txadmin.png
 author:
@@ -12,8 +12,8 @@ Wymaga zalogowania się na konto **Cfx.re**.
 !!!
   
 
-1. Po uruchomieniu serwera, w konsoli powinien pojawić się link wraz z kodem dostępu do panelu **TXAdmin**.<br>
-***Uwaga! Aby wejść do panelu TxAdmin, należy nacisnąć przycisk [!badge variant="dark" text="**TxAdmin**"] nad konsolą! Link w konsoli nie działa.***
+1. Po uruchomieniu serwera, w konsoli powinien pojawić się link wraz z kodem dostępu do panelu **txAdmin**.<br>
+***Uwaga! Aby wejść do panelu txAdmin, należy nacisnąć przycisk [!badge variant="dark" text="**txAdmin**"] nad konsolą! Link w konsoli nie działa.***
 
   
 
@@ -37,7 +37,7 @@ Wymaga zalogowania się na konto **Cfx.re**.
 
 4. W pierwszym punkcie konfiguracji klikamy przycisk [!badge variant="primary" text="**NEXT**"].
 
-5. Teraz należy podać nazwę swojego serwera. *Nazwa jest wyświetlana tylko w panelu* ***TxAdmin***. 
+5. Teraz należy podać nazwę swojego serwera. *Nazwa jest wyświetlana tylko w panelu* ***txAdmin***. 
 
   
 ![](/static/fivem/tx2.4.png)
@@ -62,13 +62,13 @@ W przypadku wyboru opcji **Popular Recipes** ***(Niezalecane)*** będziesz miał
 ![](/static/fivem/tx2.7.png)
 
 
-9. [!badge variant="success" text="**Brawo**"] TXAdmin został skonfigurowany i jest gotowy do użycia. Naciśnij przycisk [!badge variant="success" text="**Save & Start Server**"] aby uruchomić serwer.
+9. [!badge variant="success" text="**Brawo**"] txAdmin został skonfigurowany i jest gotowy do użycia. Naciśnij przycisk [!badge variant="success" text="**Save & Start Server**"] aby uruchomić serwer.
 
 
 ![](/static/fivem/tx2.8.png) 
 
 
-10. [!badge variant="info" text="**Opcjonalnie**"] Do lepszego działania serwera zalecamy włączyć OneSync w ustawieniach **TxAdmin'a**.<br>
+10. [!badge variant="info" text="**Opcjonalnie**"] Do lepszego działania serwera zalecamy włączyć OneSync w ustawieniach **txAdmin'a**.<br>
 `Settings > FXServer > OneSync`
 
 

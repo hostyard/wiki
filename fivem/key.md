@@ -2,16 +2,19 @@
 label: Klucz licencyjny FiveM
 order: 100
 icon: key
-author:
-  name: Korpens
-  email: korpens.yt@gmail.com
-  avatar: /static/avatars/korpens.jpg
+authors:
+  - name: Korpens
+    email: korpens.yt@gmail.com
+    avatar: /static/avatars/korpens.jpg
+  - name: OreQr
+    email: oreqr@hostyard.eu
+    avatar: /static/avatars/oreqr.png
 ---
 !!!warning
 Wymaga zalogowania się na konto **Cfx.re**.
 !!!
 
-1. Aby wygenerować klucz Licencyjny należy udać się na officialną stronę <a href="https://keymaster.fivem.net/" target="_blank">KeyMaster [!badge variant="primary" text="Klik"]</a>
+1. Aby wygenerować klucz Licencyjny należy udać się na officialną stronę <a href="https://keymaster.fivem.net/" target="_blank">KeyMaster</a>
 
 2. Po zalogowaniu wybieramy [!badge variant="info" text="**:icon-plus-circle: New server**"] z listy po lewo.
 
@@ -37,13 +40,5 @@ Wymaga zalogowania się na konto **Cfx.re**.
 
 
 ![](/static/fivem/key4.png)
-
-
-6. Wchodzimy do **server.cfg** i wklejamy poniższą linijkę: (Gdzie `...` to skopiowany wcześniej klucz)
-```cfg
-sv_licenseKey "..."
-```
-
-![](/static/fivem/key5.png)
 
 7. [!badge variant="success" text="**Brawo**"] Klucz ustawiony, teraz możesz odpalić swój serwer.

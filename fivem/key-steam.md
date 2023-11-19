@@ -11,9 +11,7 @@ author:
 Wymaga zalogowania się na konto **Steam**.
 !!!
 
-1. Aby wygenerować klucz **Steam WebApiKey** należy udać się na officialną stronę <a href="https://steamcommunity.com/dev/apikey" target="_blank">Steam Developers
-[!badge variant="primary" text="Klik"]
-</a>.<br>
+1. Aby wygenerować klucz **Steam WebApiKey** należy udać się na officialną stronę <a href="https://steamcommunity.com/dev/apikey" target="_blank">Steam Developers</a>.<br>
 
 2. W polu `Nazwa domeny` podajemy **IP** naszego serwera ***bez portu***, akceptujemy **TOS** i klikamy [!badge variant="success" text="**Zarejestruj się**"].
 

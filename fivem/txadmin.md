@@ -1,5 +1,5 @@
 ---
-label: Uruchamianie panelu TxAdmin
+label: Uruchamianie panelu txAdmin
 order: 97
 icon: /static/fivem/txadmin.png
 author:
@@ -30,6 +30,6 @@ Wystarczy nacisnąć przycisk [!badge variant="success" text="**WŁĄCZ**"] w za
 
 3. Następnie wchodzimy w zakładkę `Uruchamianie`. 
 
-4. W polu `TXADMIN PORT` wklejamy skopiowany wcześniej **port** oraz włączamy **TxAdmin**. 
+4. W polu `TXADMIN PORT` wklejamy skopiowany wcześniej **port** i włączamy panel **txAdmin**. 
 
 ![](/static/fivem/tx4.png)

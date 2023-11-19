@@ -2,10 +2,13 @@
 label: Podpinanie bazy danych
 order: 98
 icon: database
-author:
-  name: Korpens
-  email: korpens.yt@gmail.com
-  avatar: /static/avatars/korpens.jpg
+authors:
+  - name: Korpens
+    email: korpens.yt@gmail.com
+    avatar: /static/avatars/korpens.jpg
+  - name: OreQr
+    email: oreqr@hostyard.eu
+    avatar: /static/avatars/oreqr.png
 ---
 
   
@@ -13,7 +16,7 @@ author:
 ## Automatycznie
 
 !!!danger
-**Aktualnie niedostępne!**
+**Chwilowo niedostępne!**
 !!!
 
 ## Ręcznie
@@ -33,7 +36,7 @@ set mysql_connection_string "..."
 
 2. Wybieramy nazwę dla swojej bazy danych, a następnie klikamy przycisk [!badge variant="success" text="UTWÓRZ BAZĘ DANYCH"].
 !!!primary
-**CONNECTIONS FROM** pozostawiamy puste
+**CONNECTIONS FROM** pozostawiamy puste.
 !!!
 
 

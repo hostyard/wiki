@@ -1,5 +1,5 @@
 ---
-label: Ustawienie EndPointów
+label: Ustawienie endpointów
 order: 99
 icon: broadcast
 author:
@@ -8,7 +8,7 @@ author:
   avatar: /static/avatars/korpens.jpg
 ---
 !!!primary
-Domyślnie endpointy serwera są ustawiane na poprawne. Jeśli kożystasz z gotowej paczki, musisz je ustawić samodzielnie.
+Domyślnie endpointy serwera są ustawiane na poprawne. Jeżeli korzystasz z panelu [txAdmin](/fivem/txadmin) oraz ustawiłeś lokalizacje pliku `server.cfg` gdzieś indziej niż `/home/container/`, musisz je ustawić samodzielnie.
 </a>
 !!!
 
@@ -34,5 +34,5 @@ endpoint_add_tcp "0.0.0.0:PORT"
 
 
 !!!danger UWAGA
-W Endpoint nie podawaj IP swojego serwera! Jedynie port. `0.0.0.0:PORT`
+W endpoint nie podawaj IP swojego serwera! Jedynie port. `0.0.0.0:PORT`
 !!!

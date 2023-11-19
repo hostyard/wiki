@@ -8,7 +8,7 @@ author:
   avatar: /static/avatars/korpens.jpg
 ---
 !!!primary
-Poradnik zgodny z usługami <a href="https://dash.cloudflare.com/" target="_blank">**CloudFlare** [!badge variant="primary" text="Klik"]
+Poradnik zgodny z usługami <a href="https://dash.cloudflare.com/" target="_blank">**CloudFlare**
 </a>.
 !!!
 
