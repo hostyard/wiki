@@ -1,5 +1,5 @@
 ---
-label: Podpinanie bazy danych
+label: Podpięcie bazy danych
 order: 98
 icon: database
 authors:

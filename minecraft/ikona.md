@@ -1,5 +1,5 @@
 ---
-label: Jak ustawić własną ikonę serwera?
+label: Ustawienie ikony serwera
 order: 1
 icon: image
 author:

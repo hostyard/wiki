@@ -6,7 +6,7 @@ meta:
   title: " - Hostyard"
 branding:
   title: Hostyard
-  label: Wiki v0.3
+  label: Wiki v0.4
 links:
 - text: Strona główna
   link: https://hostyard.eu/
@@ -20,10 +20,12 @@ links:
   link: https://dc.hostyard.eu/
   target: blank
   icon: comment-discussion
-# edit:
-#   repo: "https://github.com/hostyard/wiki"
-#   branch: main
-#   label:  Edytuj na GitHub
+exclude:
+  - "README.md"
+edit:
+  repo: "https://github.com/hostyard/wiki"
+  branch: main
+  label:  Edytuj na GitHub
 search:
   noResultsFoundMsg: Nie znaleziono.
   placeholder: Szukaj

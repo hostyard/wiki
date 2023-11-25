@@ -4,8 +4,8 @@ icon: home
 ---
 
 !!!primary Informacja
-:icon-issue-opened: Wersja Strony: `v0.3`<br>
-:icon-issue-opened: Ostatnia aktualizacja: `19.11.2023`
+:icon-issue-opened: Wersja Strony: `v0.4`<br>
+:icon-issue-opened: Ostatnia aktualizacja: `25.11.2023`
 !!!
 
 ## Witaj w dokumentacji hostingu Hostyard.eu!
