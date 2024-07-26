@@ -5,7 +5,7 @@ icon: /static/fivem/txadmin.png
 author:
   name: Korpens
   email: korpens.yt@gmail.com
-  avatar: /static/avatars/korpens.jpg
+  avatar: /static/avatars/korpens.png
 ---
 
   
