@@ -1,6 +1,6 @@
 ---
 label: Ustawienie ikony serwera
-order: 1
+order: 980
 icon: image
 author:
   name: OreQr

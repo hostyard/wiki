@@ -5,7 +5,7 @@ icon: database
 authors:
   - name: Korpens
     email: korpens.yt@gmail.com
-    avatar: /static/avatars/korpens.jpg
+    avatar: /static/avatars/korpens.png
   - name: OreQr
     email: oreqr@hostyard.eu
     avatar: /static/avatars/oreqr.png

@@ -5,7 +5,7 @@ icon: link
 author:
   name: Korpens
   email: korpens.yt@gmail.com
-  avatar: /static/avatars/korpens.jpg
+  avatar: /static/avatars/korpens.png
 ---
 !!!primary
 Poradnik zgodny z usługami <a href="https://dash.cloudflare.com/" target="_blank">**CloudFlare**

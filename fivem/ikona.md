@@ -5,7 +5,7 @@ icon: image
 author:
   name: Korpens
   email: korpens.yt@gmail.com
-  avatar: /static/avatars/korpens.jpg
+  avatar: /static/avatars/korpens.png
 ---
 !!!primary Wymagania ikony:
  :icon-issue-opened: Format obrazu: `PNG`<br>

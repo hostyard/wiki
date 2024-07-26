@@ -5,7 +5,7 @@ icon: broadcast
 author:
   name: Korpens
   email: korpens.yt@gmail.com
-  avatar: /static/avatars/korpens.jpg
+  avatar: /static/avatars/korpens.png
 ---
 !!!primary
 Domyślnie endpointy serwera są ustawiane na poprawne. Jeżeli korzystasz z panelu [txAdmin](/fivem/txadmin) oraz ustawiłeś lokalizacje pliku `server.cfg` gdzieś indziej niż `/home/container/`, musisz je ustawić samodzielnie.
