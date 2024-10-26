@@ -1,3 +1,8 @@
 {
-  "editor.wordBasedSuggestions": false
+  "typescript.tsdk": "./embeds/node_modules/typescript/lib",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
 }

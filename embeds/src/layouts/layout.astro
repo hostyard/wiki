@@ -1,0 +1,21 @@
+---
+import "@/styles/globals.css"
+import "@fontsource-variable/inter"
+import { cn } from "@/lib/utils"
+---
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+  </head>
+  <body
+    class={cn(
+      "p-2",
+      import.meta.env.MODE !== "development"
+        ? "bg-transparent"
+        : "bg-background dark"
+    )}
+  >
+    <slot />
+  </body>
+</html>
