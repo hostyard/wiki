@@ -35,5 +35,7 @@ start:
 search:
   noResultsFoundMsg: Nie znaleziono.
   placeholder: Szukaj
+generator:
+  recase: none
 footer:
   copyright: "Hostyard® &copy; 2021 - {{ year }}. Wszelkie prawa zastrzeżone."
