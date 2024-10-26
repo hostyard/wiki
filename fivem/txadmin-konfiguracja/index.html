@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.781515286020">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.783299560704">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Konfiguracja panelu txAdmin - Hostyard</title>
     <meta name="title" content="Konfiguracja panelu txAdmin - Hostyard">
-    <meta name="description" content="Wymaga zalogowania się na konto Cfx.re.">
+    <meta name="description" content="Po uruchomieniu serwera, w konsoli powinien pojawić się link wraz z kodem dostępu do panelu txAdmin.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://wiki.hostyard.eu/fivem/txadmin-konfiguracja/">
@@ -20,24 +20,31 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://wiki.hostyard.eu/fivem/txadmin-konfiguracja/">
     <meta property="og:title" content="Konfiguracja panelu txAdmin - Hostyard">
-    <meta property="og:description" content="Wymaga zalogowania się na konto Cfx.re.">
+    <meta property="og:description" content="Po uruchomieniu serwera, w konsoli powinien pojawić się link wraz z kodem dostępu do panelu txAdmin.">
     <meta property="og:image" content="https://wiki.hostyard.eu/static/fivem/tx2.1.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://wiki.hostyard.eu/fivem/txadmin-konfiguracja/">
     <meta property="twitter:title" content="Konfiguracja panelu txAdmin - Hostyard">
-    <meta property="twitter:description" content="Wymaga zalogowania się na konto Cfx.re.">
+    <meta property="twitter:description" content="Po uruchomieniu serwera, w konsoli powinien pojawić się link wraz z kodem dostępu do panelu txAdmin.">
     <meta property="twitter:image" content="https://wiki.hostyard.eu/static/fivem/tx2.1.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.6.0.781515286020" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.783299560704" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.781515286020" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.783299560704" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.781515286020" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.783299560704" data-turbo-eval="false" defer></script>
+
+    <script
+      defer
+      src="https://umami.hostyard.eu/script.js"
+      data-website-id="cca01124-9d80-4709-a090-c2d5d8041207"
+    ></script>
+
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -54,7 +61,7 @@
                     <div class="flex items-center px-2 md:px-6">
                         <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
                             <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Hostyard</span>
-                        </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Wiki v0.4</span>
+                        </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Wiki</span>
                     </div>
         
                     <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
@@ -75,7 +82,7 @@
                                 </a>
                             </li>
                             <li class="mr-6">
-                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://hostyard.eu/clientarea.php/" target="_blank">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://hostyard.eu/clientarea/" target="_blank">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                         <g fill="currentColor">
                                             <path d="M3.045 18.894 9.94 12 3.045 5.106a.75.75 0 0 1 1.06-1.061l7.425 7.425a.75.75 0 0 1 0 1.06l-7.424 7.425a.75.75 0 0 1-1.061-1.06Zm8.205.606a.75.75 0 0 0 0 1.5h9.5a.75.75 0 0 0 0-1.5h-9.5Z"/>
@@ -92,6 +99,16 @@
                                         </g>
                                     </svg>
                                     <span>Discord</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/hostyard/wiki/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <symbol id="mark-github-icon-symbol" viewBox="0 0 16 16"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></symbol><use xlink:href="#mark-github-icon-symbol" />
+                                        </g>
+                                    </svg>
+                                    <span>GitHub</span>
                                 </a>
                             </li>
         
@@ -179,7 +196,7 @@
                                         </a>
                                     </li>
                                     <li class="mr-6">
-                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://hostyard.eu/clientarea.php/" target="_blank">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://hostyard.eu/clientarea/" target="_blank">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                                 <g fill="currentColor">
                                                     <path d="M3.045 18.894 9.94 12 3.045 5.106a.75.75 0 0 1 1.06-1.061l7.425 7.425a.75.75 0 0 1 0 1.06l-7.424 7.425a.75.75 0 0 1-1.061-1.06Zm8.205.606a.75.75 0 0 0 0 1.5h9.5a.75.75 0 0 0 0-1.5h-9.5Z"/>
@@ -196,6 +213,16 @@
                                                 </g>
                                             </svg>
                                             <span>Discord</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/hostyard/wiki/" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <symbol id="mark-github-icon-symbol" viewBox="0 0 16 16"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></symbol><use xlink:href="#mark-github-icon-symbol" />
+                                                </g>
+                                            </svg>
+                                            <span>GitHub</span>
                                         </a>
                                     </li>
             
@@ -235,117 +262,55 @@
           </div>
           <div class="ml-1 whitespace-nowrap text-gray-500 dark:text-dark-350"><a href="mailto:korpens.yt@gmail.com">Korpens</a></div>
         </div>
+        <div>,</div>
+        <div class="ml-2 flex items-center">
+          <div class="shrink-0 w-8 h-8 overflow-hidden rounded-full">
+            <a href="mailto:oreqr@hostyard.eu"><img class="object-cover" src="../../static/avatars/oreqr.png"></a>
+          </div>
+          <div class="ml-1 whitespace-nowrap text-gray-500 dark:text-dark-350"><a href="mailto:oreqr@hostyard.eu">OreQr</a></div>
+        </div>
     </div>
 </div>
 
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
-                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-<p>Wymaga zalogowania się na konto <strong>Cfx.re</strong>.</p>
-        </div>
-    </div>
-</div>
 <ol>
-<li>Po uruchomieniu serwera, w konsoli powinien pojawić się link wraz z kodem dostępu do panelu <strong>txAdmin</strong>.<br>
-<em><strong>Uwaga! Aby wejść do panelu txAdmin, należy nacisnąć przycisk <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-white bg-gray-700 dark:bg-dark-450 h-6 px-2 text-xs rounded-md">
-    <span><strong>txAdmin</strong></span>
-</span> nad konsolą! Link w konsoli nie działa.</strong></em></li>
-</ol>
-<p><figure class="content-center">
-    <img src="../../static/fivem/tx2.1.png" alt="">
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<ol start="2">
-<li>Po wejściu na stronę wpisujemy wygenerowany kod w pole <code v-pre>0000</code>, a następnie klikamy <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+<li><p>Po uruchomieniu serwera, w konsoli powinien pojawić się link wraz z kodem dostępu do panelu <strong>txAdmin</strong>.</p>
+<p><img src="../../static/fivem/tx2.1.png" alt="" /></p>
+</li>
+<li><p>Po wejściu na stronę wpisz wygenerowany kod w pole <code v-pre>0000</code>, a następnie kliknij <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-gray-700 dark:text-dark-600 bg-white border border-gray-300 dark:border-transparent h-6 px-2 text-xs rounded-md">
     <span><strong>Link Account</strong></span>
-</span>.</li>
-</ol>
-<p><figure class="content-center">
-    <img src="../../static/fivem/tx2.2.png" alt="">
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<ol start="3">
-<li>Logujemy się, tworzymy hasło, akceptujemy <strong>TOS</strong> i klikamy <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
-    <span><strong>Create Master Account</strong></span>
-</span>.</li>
-</ol>
-<p><figure class="content-center">
-    <img src="../../static/fivem/tx2.3.png" alt="">
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<ol start="4">
-<li><p>W pierwszym punkcie konfiguracji klikamy przycisk <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
-    <span><strong>NEXT</strong></span>
 </span>.</p>
+<p><img src="../../static/fivem/tx2.2.png" alt="" /></p>
 </li>
-<li><p>Teraz należy podać nazwę swojego serwera. <em>Nazwa jest wyświetlana tylko w panelu</em> <em><strong>txAdmin</strong></em>.</p>
+<li><p>Po zalogowaniu, stwórz konto.</p>
+<p><img src="../../static/fivem/tx2.3.png" alt="" /></p>
+</li>
+<li><p>Aby skonfigurować serwer, kliknij <strong>Go to the setup page!</strong> po prawej stronie ekranu.</p>
+<p><img src="../../static/fivem/tx2.4.png" alt="" /></p>
+<ol>
+<li><p>Kliknij przycisk <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+    <span>NEXT</span>
+</span>, aby przejść dalej.</p>
+</li>
+<li><p>Ustaw nazwę swojego serwera <em>(Nazwa ta jest wyświetlana tylko w panelu <strong>txAdmin</strong>)</em>.</p>
+</li>
+<li><p>Wybierz <strong>Existing Server Data</strong>, aby użyć już istniejących plików serwera. W przypadku wyboru <strong>Popular Recipes</strong>, będzie można wybrać instalacje gotowych paczek.</p>
+</li>
+<li><p>Ustaw ścieżkę głównego katalogu serwera <em>(Domyślnie <em><code v-pre>/home/container/</code></em>)</em>.</p>
+</li>
+<li><p>Ustaw ścieżkę pliku konfiguracyjnego serwera <code v-pre>server.cfg</code> <em>(Domyślnie <em><code v-pre>/home/container/server.cfg</code></em>)</em> i zapisz.</p>
 </li>
 </ol>
-<p><figure class="content-center">
-    <img src="../../static/fivem/tx2.4.png" alt="">
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<ol start="6">
-<li>Następnie łączymy pliki serwera. My zalecamy wybrać opcję <strong>Existing Server Data</strong> <em><strong>(Zalecane)</strong></em> aby użyć już istniejących danych serwera.<br>
-W przypadku wyboru opcji <strong>Popular Recipes</strong> <em><strong>(Niezalecane)</strong></em> będziesz miał/a możliwość instalacji gotowych paczek serwerowych.</li>
+</li>
+<li><p>Panel txAdmin został skonfigurowany i jest gotowy do użycia. Naciśnij przycisk <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+    <span>Save &amp; Start Server</span>
+</span> aby uruchomić serwer.</p>
+</li>
+<li><p><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-yellow-900 bg-yellow-100 h-6 px-2 text-xs rounded-md">
+    <span>Opcjonalnie</span>
+</span> Do lepszego działania serwera zalecamy włączyć OneSync w ustawieniach <strong>txAdmin&#x27;a</strong>. Lokalizacja <code v-pre>Settings &gt; FXServer &gt; OneSync</code>.</p>
+<p><img src="../../static/fivem/tx2.5.png" alt="alt text" /></p>
+</li>
 </ol>
-<p><figure class="content-center">
-    <img src="../../static/fivem/tx2.5.png" alt="">
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<ol start="7">
-<li>W tym kroku podajemy ścieżkę głównego katalogu. Domyślnie jest to <code v-pre>/home/container/</code>.</li>
-</ol>
-<p><figure class="content-center">
-    <img src="../../static/fivem/tx2.6.png" alt="">
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<ol start="8">
-<li>Należy jeszcze ustawić ścieżkę pliku <code v-pre>server.cfg</code>. Domyślnie jest ona ustawiona na <code v-pre>/home/container/server.cfg</code>.</li>
-</ol>
-<p><figure class="content-center">
-    <img src="../../static/fivem/tx2.7.png" alt="">
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<ol start="9">
-<li><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
-    <span><strong>Brawo</strong></span>
-</span> txAdmin został skonfigurowany i jest gotowy do użycia. Naciśnij przycisk <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
-    <span><strong>Save &amp; Start Server</strong></span>
-</span> aby uruchomić serwer.</li>
-</ol>
-<p><figure class="content-center">
-    <img src="../../static/fivem/tx2.8.png" alt="">
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<ol start="10">
-<li><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 h-6 px-2 text-xs rounded-md">
-    <span><strong>Opcjonalnie</strong></span>
-</span> Do lepszego działania serwera zalecamy włączyć OneSync w ustawieniach <strong>txAdmin&#x27;a</strong>.<br>
-<code v-pre>Settings &gt; FXServer &gt; OneSync</code></li>
-</ol>
-<p><figure class="content-center">
-    <img src="../../static/fivem/tx2.9.png" alt="">
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -361,11 +326,11 @@ W przypadku wyboru opcji <strong>Popular Recipes</strong> <em><strong>(Niezaleca
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../fivem/txadmin/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../fivem/database/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Uruchamianie panelu tx​Admin</span>
+                                                <span class="block mt-1">Podpięcie bazy danych</span>
                                             </span>
                                         </a>
                                     </div>
