@@ -30,6 +30,7 @@ Dodawanie rekordów DNS wygląda podobnie we wszystkich serwisach.
 [!badge variant="success" text="Rekord A"]
 
 3. Kliknij przycisk [!badge variant="info" text="**Dodaj rekord**"], wybierz **A** i ustaw tak jak na zdjęciu poniżej.
+
    ![](/static/domena/domena3.png)
 
 - Pole `Subdomena` pozostaw puste lub wpisz **_nazwę subdomeny_**,
@@ -39,6 +40,7 @@ Dodawanie rekordów DNS wygląda podobnie we wszystkich serwisach.
 [!badge variant="success" text="Rekord SRV"]
 
 4. Ponownie kliknij przycisk [!badge variant="info" text="**Dodaj rekord**"], wybierz **SRV** i ustaw tak jak na zdjęciu poniżej.
+
    ![](/static/minecraft/domena/domena4.png)
 
 - W polu `Subdomena` wpisz `_minecraft._tcp`,
@@ -60,6 +62,7 @@ Teraz możesz połączyć się z serwerem za pomocą domeny!
 [!badge variant="success" text="Rekord A"]
 
 3. Kliknij przycisk [!badge variant="primary" text="**Add record**"] i ustaw tak jak na zdjęciu poniżej.
+
    ![](/static/domena/domena1.png)
 
 - W polu `Type` wybierz `A`,
@@ -71,6 +74,7 @@ Teraz możesz połączyć się z serwerem za pomocą domeny!
 [!badge variant="success" text="Rekord SRV"]
 
 4. Ponownie kliknij przycisk [!badge variant="primary" text="**Add record**"] i ustaw tak jak na zdjęciu poniżej.
+
    ![](/static/minecraft/domena/domena2.png)
 
 - W polu `Type` wybierz `SRV`,
